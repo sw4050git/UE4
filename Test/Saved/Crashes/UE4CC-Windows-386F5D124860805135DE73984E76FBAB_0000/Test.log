@@ -1,0 +1,1713 @@
+﻿Log file open, 09/07/21 18:40:55
+LogInit: Display: Running engine for game: Test
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.146279
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2070
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/UE4/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.07-09.40.55:451][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.09.07-09.40.55:451][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.07-09.40.55:451][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.07-09.40.55:454][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.07-09.40.55:454][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.07-09.40.55:455][  0]LogInit: Selected Device Profile: [Windows]
+[2021.09.07-09.40.55:455][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.09.07-09.40.55:455][  0]LogHAL: Display: Platform has ~ 32 GB [34293813248 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.09.07-09.40.55:455][  0]LogInit: Going up to parent DeviceProfile []
+[2021.09.07-09.40.55:455][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.07-09.40.55:455][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.40.55:456][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.07-09.40.55:456][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.07-09.40.55:456][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.07-09.40.55:456][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.07-09.40.55:456][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.07-09.40.55:456][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.07-09.40.55:456][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.07-09.40.55:456][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.09.07-09.40.55:456][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.09.07-09.40.55:456][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.09.07-09.40.55:456][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.09.07-09.40.55:456][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.07-09.40.55:456][  0]LogInit: Computer: DESKTOP-L6S36HL
+[2021.09.07-09.40.55:456][  0]LogInit: User: user
+[2021.09.07-09.40.55:456][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.09.07-09.40.55:456][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.09.07-09.40.55:456][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.09.07-09.40.55:456][  0]LogMemory: Platform Memory Stats for Windows
+[2021.09.07-09.40.55:456][  0]LogMemory: Process Physical Memory: 116.59 MB used, 116.59 MB peak
+[2021.09.07-09.40.55:456][  0]LogMemory: Process Virtual Memory: 101.14 MB used, 101.14 MB peak
+[2021.09.07-09.40.55:456][  0]LogMemory: Physical Memory: 8273.06 MB used,  24432.07 MB free, 32705.13 MB total
+[2021.09.07-09.40.55:456][  0]LogMemory: Virtual Memory: 5154.02 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2021.09.07-09.40.55:459][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.09.07-09.40.55:487][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.09.07-09.40.55:488][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.09.07-09.40.55:488][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2021.09.07-09.40.55:488][  0]LogInit: Using OS detected locale (ja-JP).
+[2021.09.07-09.40.55:608][  0]LogInit: Setting process to per monitor DPI aware
+[2021.09.07-09.40.55:631][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.09.07-09.40.55:631][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.09.07-09.40.55:731][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.09.07-09.40.55:731][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.09.07-09.40.55:731][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.09.07-09.40.55:731][  0]LogD3D11RHI: D3D11 adapters:
+[2021.09.07-09.40.55:789][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2021.09.07-09.40.55:789][  0]LogD3D11RHI:       8031/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.09.07-09.40.55:791][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.09.07-09.40.55:791][  0]LogD3D11RHI:       0/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.09.07-09.40.55:791][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.09.07-09.40.55:795][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.09.07-09.40.55:795][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
+[2021.09.07-09.40.55:795][  0]LogWindows: EnumDisplayDevices:
+[2021.09.07-09.40.55:795][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2021.09.07-09.40.55:795][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2021.09.07-09.40.55:795][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.09.07-09.40.55:795][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.09.07-09.40.55:795][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.09.07-09.40.55:795][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2021.09.07-09.40.55:795][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.09.07-09.40.55:795][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.09.07-09.40.55:795][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.09.07-09.40.55:840][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.09.07-09.40.55:842][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2021.09.07-09.40.55:842][  0]LogD3D11RHI: Async texture creation enabled
+[2021.09.07-09.40.55:842][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.09.07-09.40.55:873][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2021.09.07-09.40.56:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.09.07-09.40.56:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.09.07-09.40.56:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.09.07-09.40.56:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.09.07-09.40.56:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.09.07-09.40.56:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.09.07-09.40.56:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.09.07-09.40.56:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.09.07-09.40.56:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.09.07-09.40.56:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.09.07-09.40.56:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.09.07-09.40.56:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.09.07-09.40.56:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.09.07-09.40.56:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.09.07-09.40.56:113][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.09.07-09.40.56:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.09.07-09.40.56:126][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.09.07-09.40.56:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.09.07-09.40.56:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.09.07-09.40.56:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.09.07-09.40.56:165][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.09.07-09.40.56:165][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.09.07-09.40.56:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.09.07-09.40.56:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.09.07-09.40.56:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.09.07-09.40.56:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.09.07-09.40.56:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.09.07-09.40.56:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.09.07-09.40.56:203][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.09.07-09.40.56:208][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.09.07-09.40.56:247][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Intermediate/Shaders/WorkingDirectory/8200/).
+[2021.09.07-09.40.56:248][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/C7BA8B5249FDE36787344894D7634938/'.
+[2021.09.07-09.40.56:248][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.09.07-09.40.56:248][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.09.07-09.40.56:248][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.09.07-09.40.56:831][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.09.07-09.40.56:868][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/user/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.09.07-09.40.56:868][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.09.07-09.40.56:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/user/Documents/Unreal Projects/UE4/Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.09.07-09.40.56:868][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.09.07-09.40.56:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/user/Documents/Unreal Projects/UE4/Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.09.07-09.40.56:868][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.09.07-09.40.56:876][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.09.07-09.40.56:876][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.09.07-09.40.56:876][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.09.07-09.40.56:877][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.09.07-09.40.56:877][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.09.07-09.40.56:877][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.09.07-09.40.56:916][  0]LogSlate: Using FreeType 2.10.0
+[2021.09.07-09.40.56:916][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.09.07-09.40.56:938][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
+[2021.09.07-09.40.57:114][  0]LogInit: Selected Device Profile: [Windows]
+[2021.09.07-09.40.57:197][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.09.07-09.40.57:197][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.09.07-09.40.57:197][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.09.07-09.40.57:197][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.09.07-09.40.57:197][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.09.07-09.40.57:208][  0]LogNetVersion: Test 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3542995773)
+[2021.09.07-09.40.57:560][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001C8709A1A80), frame # 0
+[2021.09.07-09.40.57:560][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C8708E4F40), frame # 0
+[2021.09.07-09.40.57:562][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C8708FB200), frame # 0
+[2021.09.07-09.40.57:616][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.048430 seconds
+[2021.09.07-09.40.57:621][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.09.07-09.40.57:621][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.09.07-09.40.57:621][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.09.07-09.40.57:870][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.09.07-09.40.57:875][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.09.07-09.40.57:974][  0]SourceControl: Source control is disabled
+[2021.09.07-09.40.57:974][  0]SourceControl: Source control is disabled
+[2021.09.07-09.40.57:977][  0]SourceControl: Source control is disabled
+[2021.09.07-09.40.57:979][  0]SourceControl: Source control is disabled
+[2021.09.07-09.40.57:983][  0]SourceControl: Source control is disabled
+[2021.09.07-09.40.58:165][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.09.07-09.40.58:181][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.09.07-09.40.58:181][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.09.07-09.40.58:223][  0]LogOcInput: OculusInput pre-init called
+[2021.09.07-09.40.58:231][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.09.07-09.40.58:231][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.09.07-09.40.58:278][  0]LogEngine: Initializing Engine...
+[2021.09.07-09.40.58:278][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.09.07-09.40.58:278][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.09.07-09.40.58:279][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.09.07-09.40.58:365][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.09.07-09.40.58:371][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.09.07-09.40.58:371][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C873BC7C00), frame # 0
+[2021.09.07-09.40.58:371][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C873C0E840), frame # 0
+[2021.09.07-09.40.58:381][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.07-09.40.58:381][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.07-09.40.58:381][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.07-09.40.58:381][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.07-09.40.58:381][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.07-09.40.58:381][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.07-09.40.58:381][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.07-09.40.58:381][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.07-09.40.58:381][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.07-09.40.58:381][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.07-09.40.58:389][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.07-09.40.58:389][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.09.07-09.40.58:414][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.09.07-09.40.58:415][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.07-09.40.58:417][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.07-09.40.58:417][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.07-09.40.58:417][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.09.07-09.40.58:418][  0]LogInit: FAudioDevice initialized.
+[2021.09.07-09.40.58:418][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.09.07-09.40.58:700][  0]LogDerivedDataCache: Saved boot cache 0.28s 76MB C:/Users/user/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.09.07-09.40.58:700][  0]LogInit: Texture streaming: Enabled
+[2021.09.07-09.40.58:712][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.09.07-09.40.58:712][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.09.07-09.40.58:712][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.09.07-09.40.58:758][  0]LogInit: Transaction tracking system initialized
+[2021.09.07-09.40.58:772][  0]BlueprintLog: New page: Editor Load
+[2021.09.07-09.40.58:819][  0]LocalizationService: Localization service is disabled
+[2021.09.07-09.40.58:932][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.09.07-09.40.58:932][  0]LogCook: Display: Mobile HDR setting 1
+[2021.09.07-09.40.59:030][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/UE4/Test/Content/' took 0.01s
+[2021.09.07-09.40.59:208][  0]SourceControl: Source control is disabled
+[2021.09.07-09.40.59:208][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.870
+[2021.09.07-09.40.59:208][  0]Cmd: MAP LOAD FILE="../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Content/TestGame/Maps/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.09.07-09.40.59:208][  0]LightingResults: New page: Lighting Build
+[2021.09.07-09.40.59:209][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.09.07-09.40.59:209][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.07-09.40.59:209][  0]MapCheck: New page: Map Check
+[2021.09.07-09.40.59:209][  0]LightingResults: New page: Lighting Build
+[2021.09.07-09.40.59:217][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C873BC7C00), frame # 0
+[2021.09.07-09.40.59:217][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C873C0E840), frame # 0
+[2021.09.07-09.40.59:218][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.09.07-09.41.00:588][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.09.07-09.41.00:588][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.09.07-09.41.00:588][  0]LogPhysics: Warning: Failed to cook convex: /Game/TestGame/Maps/SM/door.door 0 (FlipX:0). The remaining elements will not get cooked.
+[2021.09.07-09.41.00:588][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.09.07-09.41.00:588][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.09.07-09.41.00:588][  0]LogPhysics: Warning: Failed to cook convex: /Game/TestGame/Maps/SM/door.door 0 (FlipX:1). The remaining elements will not get cooked.
+[2021.09.07-09.41.00:589][  0]LogPhysics: Warning: Attempt to build physics data for /Game/TestGame/Maps/SM/door.door:BodySetup_0 when we are unable to.
+[2021.09.07-09.41.00:773][  0]LogAIModule: Creating AISystem for world NewWorld
+[2021.09.07-09.41.00:773][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C87C61A200), frame # 0
+[2021.09.07-09.41.00:773][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C87C636340), frame # 0
+[2021.09.07-09.41.00:786][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:786][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:789][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:790][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:791][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:792][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:792][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:792][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:792][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:792][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:792][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:792][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:792][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:792][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:792][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:793][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:793][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:793][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:793][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:825][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:825][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:825][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:825][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:825][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:825][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:826][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:826][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:826][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:826][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:826][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:826][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:826][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:826][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:826][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:826][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:827][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:827][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:827][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:827][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:827][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:827][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:827][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:827][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:827][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:827][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:828][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:829][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:829][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:829][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:829][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:829][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:829][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:829][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:829][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:829][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:829][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:830][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:831][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:832][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:833][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:833][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:833][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:833][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:833][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:833][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:833][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:833][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:834][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:835][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:836][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:837][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:837][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:837][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:837][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:837][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:837][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:837][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:837][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:837][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:837][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:838][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:838][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:838][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:838][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:838][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:838][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:838][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:838][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:839][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:839][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:839][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:839][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:839][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:839][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:839][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:839][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:839][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:839][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:840][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:840][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:840][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:840][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:840][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:840][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:840][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:840][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:840][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:840][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:841][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:841][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:841][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:841][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:841][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:841][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:841][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:841][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:841][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:841][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:842][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:843][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:843][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:843][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:843][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:843][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:843][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:843][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:843][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:843][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.00:843][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.00:881][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.09.07-09.41.00:901][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.09.07-09.41.00:901][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.09.07-09.41.00:901][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
+[2021.09.07-09.41.00:901][  0]LogFileHelpers: Loading map 'NewWorld' took 1.694
+[2021.09.07-09.41.00:903][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.567
+[2021.09.07-09.41.00:963][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2021.09.07-09.41.01:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.07-09.41.01:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.07-09.41.01:070][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.07-09.41.01:074][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.07-09.41.01:266][  0]LogCollectionManager: Loaded 0 collections in 0.001472 seconds
+[2021.09.07-09.41.01:300][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Collections/' took 0.00s
+[2021.09.07-09.41.01:300][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/UE4/Test/Content/Developers/user/Collections/' took 0.00s
+[2021.09.07-09.41.01:300][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/UE4/Test/Content/Collections/' took 0.00s
+[2021.09.07-09.41.01:300][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3429 classes and 823 folders.
+[2021.09.07-09.41.01:309][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.09.07-09.41.01:650][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.09.07-09.41.01:724][  0]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.09.07-09.41.01:725][  0]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.09.07-09.41.01:736][  0]LogSlate: Took 0.004418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.09.07-09.41.01:845][  0]LogRenderer: Reallocating scene render targets to support 1192x884 Format 10 NumSamples 1 (Frame:1).
+[2021.09.07-09.41.01:948][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.09.07-09.41.01:948][  0]LogLoad: (Engine Initialization) Total time: 7.61 seconds
+[2021.09.07-09.41.01:948][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.09.07-09.41.01:983][  0]LogAssetRegistry: Asset discovery search completed in 5.0459 seconds
+[2021.09.07-09.41.01:986][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.09.07-09.41.01:988][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.09.07-09.41.02:038][  0]LogRenderer: Reallocating scene render targets to support 1192x900 Format 10 NumSamples 1 (Frame:3).
+[2021.09.07-09.41.02:038][  0]LogSlate: Took 0.007172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.09.07-09.41.10:677][360]LogTemp: Repeating last play command: Selected Viewport
+[2021.09.07-09.41.10:692][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.07-09.41.10:700][360]PIE: New page: PIE session: NewWorld (2021/09/08 3:41:10)
+[2021.09.07-09.41.10:702][360]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.09.07-09.41.10:703][360]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.09.07-09.41.10:703][360]LogPlayLevel: Creating play world package: /Game/TestGame/Maps/UEDPIE_0_NewWorld
+[2021.09.07-09.41.10:728][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025142s)
+[2021.09.07-09.41.10:729][360]LogAIModule: Creating AISystem for world NewWorld
+[2021.09.07-09.41.10:729][360]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C81EF93E00), frame # 360
+[2021.09.07-09.41.10:729][360]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C863230180), frame # 360
+[2021.09.07-09.41.10:729][360]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2021.09.07-09.41.10:729][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestGame/Maps/NewWorld.NewWorld to /Game/TestGame/Maps/UEDPIE_0_NewWorld.NewWorld (0.026168s)
+[2021.09.07-09.41.10:738][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.09.07-09.41.10:739][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.07-09.41.10:739][360]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.07-09.41.10:739][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.07-09.41.10:739][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.07-09.41.10:739][360]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.07-09.41.10:739][360]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.07-09.41.10:739][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.07-09.41.10:739][360]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.07-09.41.10:739][360]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.07-09.41.10:739][360]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.07-09.41.10:741][360]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.07-09.41.10:741][360]LogAudioMixer: Display: 1: FrontRight
+[2021.09.07-09.41.10:751][360]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.09.07-09.41.10:751][360]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.07-09.41.10:751][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.07-09.41.10:751][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.07-09.41.10:751][360]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.09.07-09.41.10:759][360]LogInit: FAudioDevice initialized.
+[2021.09.07-09.41.10:768][360]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.09.07-09.41.10:772][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:773][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:774][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:775][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:775][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:775][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:775][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:775][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:775][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:775][360]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.41.10:775][360]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.41.10:779][360]LogWorld: Bringing World /Game/TestGame/Maps/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 0) at 2021.09.07-18.41.10
+[2021.09.07-09.41.10:781][360]LogWorld: Bringing up level for play took: 0.011814
+[2021.09.07-09.41.10:782][360]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.09.07-09.41.10:787][360]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.09.07-09.41.10:795][360]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.07-09.41.10:795][360]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.07-09.41.10:795][360]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.07-09.41.10:795][360]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.07-09.41.10:796][360]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.09.07-09.41.10:796][360]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.07-09.41.10:796][360]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.07-09.41.10:797][360]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.07-09.41.10:804][360]Cmd: Stat FPS
+[2021.09.07-09.41.10:806][360]PIE: Server logged in
+[2021.09.07-09.41.10:806][360]PIE: Play in editor total start time 0.116 seconds.
+[2021.09.07-09.41.10:811][360]LogBlueprintUserMessages: [BTT_SetFirstTargetPoint_C_0] BP_TargetPoint22
+[2021.09.07-09.41.10:835][361]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint
+[2021.09.07-09.41.10:836][361]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint10
+[2021.09.07-09.41.32:303][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.07-09.41.32:303][933]LogWorld: BeginTearingDown for /Game/TestGame/Maps/UEDPIE_0_NewWorld
+[2021.09.07-09.41.32:304][933]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2021.09.07-09.41.32:305][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.07-09.41.32:311][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.07-09.41.32:313][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.07-09.41.32:333][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.07-09.41.32:335][933]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C863230180), frame # 2933
+[2021.09.07-09.41.32:335][933]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C81EF93E00), frame # 2933
+[2021.09.07-09.41.32:336][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.09.07-09.41.32:399][935]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.09.07-09.41.56:780][251]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.09.07-09.41.56:799][251]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_Npckid_AIController.BP_Npckid_AIController
+[2021.09.07-09.41.57:177][251]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.09.07-09.41.57:943][251]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.09.07-09.41.58:020][252]LogSlate: Took 0.004153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.09.07-09.42.08:034][337]LogSavePackage: Moving '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Saved/BP_Npckid_AIController4976F032499C884C9C5DFD93EA8D6A62.tmp' to '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Content/TestGame/Blueprints/Npc/NpcBase/Controller/BP_Npckid_AIController.uasset'
+[2021.09.07-09.42.08:048][337]AssetCheck: New page: Asset Save: BP_Npckid_AIController
+[2021.09.07-09.42.08:048][337]LogContentValidation: Display: Validating Blueprint /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_Npckid_AIController.BP_Npckid_AIController
+[2021.09.07-09.42.08:423][381]BlueprintLog: New page: Compile BP_Npckid_AIController
+[2021.09.07-09.42.08:454][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.09.07-09.42.08:497][381]LogSlate: Took 0.001051 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.09.07-09.42.11:155][681]LogTemp: Repeating last play command: Selected Viewport
+[2021.09.07-09.42.11:170][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.07-09.42.11:170][681]PIE: New page: PIE session: NewWorld (2021/09/08 3:42:11)
+[2021.09.07-09.42.11:170][681]LogPlayLevel: Creating play world package: /Game/TestGame/Maps/UEDPIE_0_NewWorld
+[2021.09.07-09.42.11:196][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025512s)
+[2021.09.07-09.42.11:197][681]LogAIModule: Creating AISystem for world NewWorld
+[2021.09.07-09.42.11:197][681]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C88EC48E00), frame # 6681
+[2021.09.07-09.42.11:197][681]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C88EC43100), frame # 6681
+[2021.09.07-09.42.11:197][681]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2021.09.07-09.42.11:197][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestGame/Maps/NewWorld.NewWorld to /Game/TestGame/Maps/UEDPIE_0_NewWorld.NewWorld (0.026509s)
+[2021.09.07-09.42.11:213][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.09.07-09.42.11:215][681]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.07-09.42.11:215][681]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.07-09.42.11:215][681]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.07-09.42.11:215][681]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.07-09.42.11:215][681]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.07-09.42.11:215][681]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.07-09.42.11:215][681]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.07-09.42.11:215][681]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.07-09.42.11:215][681]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.07-09.42.11:215][681]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.07-09.42.11:217][681]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.07-09.42.11:217][681]LogAudioMixer: Display: 1: FrontRight
+[2021.09.07-09.42.11:227][681]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.09.07-09.42.11:227][681]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.07-09.42.11:227][681]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.07-09.42.11:227][681]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.07-09.42.11:227][681]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.09.07-09.42.11:236][681]LogInit: FAudioDevice initialized.
+[2021.09.07-09.42.11:240][681]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:244][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:245][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.42.11:246][681]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.42.11:250][681]LogWorld: Bringing World /Game/TestGame/Maps/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 0) at 2021.09.07-18.42.11
+[2021.09.07-09.42.11:251][681]LogWorld: Bringing up level for play took: 0.010180
+[2021.09.07-09.42.11:252][681]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.09.07-09.42.11:258][681]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.42.11:258][681]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.07-09.42.11:258][681]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.07-09.42.11:258][681]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.07-09.42.11:259][681]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.07-09.42.11:259][681]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.07-09.42.11:259][681]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.09.07-09.42.11:260][681]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.07-09.42.11:260][681]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.07-09.42.11:260][681]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.07-09.42.11:261][681]Cmd: Stat FPS
+[2021.09.07-09.42.11:261][681]PIE: Server logged in
+[2021.09.07-09.42.11:262][681]PIE: Play in editor total start time 0.092 seconds.
+[2021.09.07-09.42.11:263][681]LogBlueprintUserMessages: [BTT_SetFirstTargetPoint_C_0] BP_TargetPoint22
+[2021.09.07-09.42.11:286][682]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint
+[2021.09.07-09.42.11:286][682]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint10
+[2021.09.07-09.42.58:303][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.07-09.42.58:303][305]LogWorld: BeginTearingDown for /Game/TestGame/Maps/UEDPIE_0_NewWorld
+[2021.09.07-09.42.58:304][305]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2021.09.07-09.42.58:305][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.07-09.42.58:311][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.07-09.42.58:314][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.07-09.42.58:341][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.07-09.42.58:343][305]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C88EC43100), frame # 12305
+[2021.09.07-09.42.58:343][305]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C88EC48E00), frame # 12305
+[2021.09.07-09.42.58:345][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2021.09.07-09.42.58:378][306]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.09.07-09.43.06:780][ 93]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/TestGame/Blueprints/Npc/NpcBase/AI/BT_Npckid.BT_Npckid
+[2021.09.07-09.43.09:944][440]LogTemp: Repeating last play command: Selected Viewport
+[2021.09.07-09.43.09:960][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.07-09.43.09:960][440]PIE: New page: PIE session: NewWorld (2021/09/08 3:43:09)
+[2021.09.07-09.43.09:983][440]LogPlayLevel: Creating play world package: /Game/TestGame/Maps/UEDPIE_0_NewWorld
+[2021.09.07-09.43.10:007][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024813s)
+[2021.09.07-09.43.10:008][440]LogAIModule: Creating AISystem for world NewWorld
+[2021.09.07-09.43.10:008][440]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C82A078C00), frame # 13440
+[2021.09.07-09.43.10:008][440]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C82A072FC0), frame # 13440
+[2021.09.07-09.43.10:008][440]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2021.09.07-09.43.10:008][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestGame/Maps/NewWorld.NewWorld to /Game/TestGame/Maps/UEDPIE_0_NewWorld.NewWorld (0.025804s)
+[2021.09.07-09.43.10:025][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.09.07-09.43.10:026][440]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.07-09.43.10:026][440]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.07-09.43.10:026][440]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.07-09.43.10:026][440]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.07-09.43.10:026][440]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.07-09.43.10:026][440]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.07-09.43.10:026][440]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.07-09.43.10:026][440]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.07-09.43.10:026][440]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.07-09.43.10:026][440]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.07-09.43.10:028][440]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.07-09.43.10:028][440]LogAudioMixer: Display: 1: FrontRight
+[2021.09.07-09.43.10:038][440]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.09.07-09.43.10:038][440]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.07-09.43.10:038][440]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.07-09.43.10:038][440]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.07-09.43.10:038][440]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.09.07-09.43.10:047][440]LogInit: FAudioDevice initialized.
+[2021.09.07-09.43.10:055][440]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.09.07-09.43.10:058][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:058][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:058][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:058][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:059][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:060][440]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.07-09.43.10:061][440]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.07-09.43.10:065][440]LogWorld: Bringing World /Game/TestGame/Maps/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 0) at 2021.09.07-18.43.10
+[2021.09.07-09.43.10:066][440]LogWorld: Bringing up level for play took: 0.010195
+[2021.09.07-09.43.10:067][440]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.09.07-09.43.10:073][440]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.07-09.43.10:073][440]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.07-09.43.10:073][440]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.07-09.43.10:073][440]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.43.10:073][440]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.09.07-09.43.10:074][440]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.07-09.43.10:074][440]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.07-09.43.10:075][440]Cmd: Stat FPS
+[2021.09.07-09.43.10:075][440]PIE: Server logged in
+[2021.09.07-09.43.10:076][440]PIE: Play in editor total start time 0.117 seconds.
+[2021.09.07-09.43.10:077][440]LogBlueprintUserMessages: [BTT_SetFirstTargetPoint_C_0] BP_TargetPoint22
+[2021.09.07-09.43.10:099][441]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint
+[2021.09.07-09.43.10:099][441]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint10
+[2021.09.07-09.44.34:640][570]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint4
+[2021.09.07-09.44.43:479][630]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint14
+[2021.09.07-09.44.45:195][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.07-09.44.45:195][833]LogWorld: BeginTearingDown for /Game/TestGame/Maps/UEDPIE_0_NewWorld
+[2021.09.07-09.44.45:196][833]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2021.09.07-09.44.45:197][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.07-09.44.45:201][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.07-09.44.45:204][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.07-09.44.45:232][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.07-09.44.45:234][833]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C82A072FC0), frame # 24833
+[2021.09.07-09.44.45:234][833]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C82A078C00), frame # 24833
+[2021.09.07-09.44.45:236][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.09.07-09.44.45:295][835]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.09.07-09.44.54:947][806]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TestGame/Blueprints/Npc/NpcBase/BP/BP_Npckid.BP_Npckid
+[2021.09.07-09.45.22:416][980]LogSavePackage: Moving '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Saved/BP_NpckidF562CC1D4B7EB4B0831F18A44050F1C8.tmp' to '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Content/TestGame/Blueprints/Npc/NpcBase/BP/BP_Npckid.uasset'
+[2021.09.07-09.45.22:427][980]AssetCheck: New page: Asset Save: BP_Npckid
+[2021.09.07-09.45.22:427][980]LogContentValidation: Display: Validating Blueprint /Game/TestGame/Blueprints/Npc/NpcBase/BP/BP_Npckid.BP_Npckid
+[2021.09.07-09.45.22:897][ 32]BlueprintLog: New page: Compile BP_Npckid
+[2021.09.07-09.45.22:938][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.09.07-09.45.47:301][789]LogSavePackage: Moving '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Saved/BT_Npckid828242BF4B86AF0376B6B596474CF1F1.tmp' to '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Content/TestGame/Blueprints/Npc/NpcBase/AI/BT_Npckid.uasset'
+[2021.09.07-09.45.47:310][789]AssetCheck: New page: Asset Save: BT_Npckid
+[2021.09.07-09.45.47:310][789]LogContentValidation: Display: Validating BehaviorTree /Game/TestGame/Blueprints/Npc/NpcBase/AI/BT_Npckid.BT_Npckid
+[2021.09.07-09.46.07:773][ 91]LogSavePackage: Moving '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Saved/BP_Npckid_AIController81B62D7D4C30296A1CF566B21CAF13DB.tmp' to '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Content/TestGame/Blueprints/Npc/NpcBase/Controller/BP_Npckid_AIController.uasset'
+[2021.09.07-09.46.07:783][ 91]AssetCheck: New page: Asset Save: BP_Npckid_AIController
+[2021.09.07-09.46.07:783][ 91]LogContentValidation: Display: Validating Blueprint /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_Npckid_AIController.BP_Npckid_AIController
+[2021.09.07-09.46.50:974][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.09.07-09.46.50:979][658]LogMetaData: Removing '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseFIx_AIController.BP_NpcBaseFIx_AIController_C' ref from Metadata '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBase_AIController_2.PackageMetaData'
+[2021.09.07-09.46.50:979][658]LogMetaData: Removing '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseFIx_AIController.SKEL_BP_NpcBaseFIx_AIController_C' ref from Metadata '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBase_AIController_2.PackageMetaData'
+[2021.09.07-09.46.51:029][658]LogSavePackage: Moving '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Saved/BP_NpcBaseFIx_AIController8E19BE774BDC504D54F49EA3451559D4.tmp' to '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Content/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseFIx_AIController.uasset'
+[2021.09.07-09.46.51:049][658]LogSavePackage: Moving '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Saved/BP_NpcBase_AIController_200C711AC480EB50651F26287097177C7.tmp' to '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Content/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBase_AIController_2.uasset'
+[2021.09.07-09.46.51:112][658]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseFIx_AIController.
+[2021.09.07-09.46.51:124][658]AssetCheck: New page: Asset Save: multiple assets
+[2021.09.07-09.46.51:124][658]LogContentValidation: Display: Validating Blueprint /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseFIx_AIController.BP_NpcBaseFIx_AIController
+[2021.09.07-09.46.51:124][658]LogContentValidation: Display: Validating ObjectRedirector /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBase_AIController_2.BP_NpcBase_AIController_2
+[2021.09.07-09.46.51:124][658]LogContentValidation: Display: Validating ObjectRedirector /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBase_AIController_2.BP_NpcBase_AIController_2_C
+[2021.09.07-09.46.59:524][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.09.07-09.46.59:528][634]LogMetaData: Removing '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseStroll_AIController.BP_NpcBaseStroll_AIController_C' ref from Metadata '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBase_AIController.PackageMetaData'
+[2021.09.07-09.46.59:528][634]LogMetaData: Removing '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseStroll_AIController.BP_NpcBaseStroll_AIController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBase_AIController.PackageMetaData'
+[2021.09.07-09.46.59:528][634]LogMetaData: Removing '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseStroll_AIController.BP_NpcBaseStroll_AIController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBase_AIController.PackageMetaData'
+[2021.09.07-09.46.59:528][634]LogMetaData: Removing '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseStroll_AIController.SKEL_BP_NpcBaseStroll_AIController_C' ref from Metadata '/Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBase_AIController.PackageMetaData'
+[2021.09.07-09.46.59:579][634]LogSavePackage: Moving '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Saved/BP_NpcBaseStroll_AIController4063EA274E9F316BAECD5F9B26FF8921.tmp' to '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Content/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseStroll_AIController.uasset'
+[2021.09.07-09.46.59:729][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.09.07-09.46.59:752][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.09.07-09.46.59:769][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.09.07-09.46.59:816][634]LogSavePackage: Moving '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Saved/BP_NpcBase52A18D284872CC5A96F27D942D023908.tmp' to '../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Content/TestGame/Blueprints/Npc/NpcBase/BP/BP_NpcBase.uasset'
+[2021.09.07-09.46.59:879][634]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseStroll_AIController.
+[2021.09.07-09.46.59:888][634]AssetCheck: New page: Asset Save: multiple assets
+[2021.09.07-09.46.59:888][634]LogContentValidation: Display: Validating Blueprint /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcBaseStroll_AIController.BP_NpcBaseStroll_AIController
+[2021.09.07-09.46.59:888][634]LogContentValidation: Display: Validating Blueprint /Game/TestGame/Blueprints/Npc/NpcBase/BP/BP_NpcBase.BP_NpcBase
+[2021.09.07-09.47.13:697][221]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.09.07-09.47.29:780][221]LogStats: FPlatformStackWalk::StackWalkAndDump - 16.083 s
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: === Handled ensure: ===
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: 
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 222]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: Found circular redirect from /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_Npckid_AIController.BP_Npckid_AIController to /Game/TestGame/Blueprints/Npc/NpcBase/Controller/BP_NpcKid_AIController.BP_NpcKid_AIController! Returning None instead
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: Stack: 
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fe1c3f3 UE4Editor-CoreUObject.dll!DispatchCheckVerify<bool,<lambda_c852f42094f254027319919723b028e8> >() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Core\Public\Misc\AssertionMacros.h:161]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fa0b7d0 UE4Editor-CoreUObject.dll!FRedirectCollector::GetAssetPathRedirection() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp:222]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fd42b06 UE4Editor-CoreUObject.dll!FSoftObjectPath::PreSavePath() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SoftObjectPath.cpp:148]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fd5b2de UE4Editor-CoreUObject.dll!FSoftObjectPath::SerializePath() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SoftObjectPath.cpp:201]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fa3f727 UE4Editor-CoreUObject.dll!FArchiveUObject::SerializeSoftObjectPath() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\Serialization\ArchiveUObject.cpp:91]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb1ff37522 UE4Editor-Core.dll!FStructuredArchiveSlot::operator<<() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Core\Private\Serialization\StructuredArchive.cpp:543]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fd52e33 UE4Editor-CoreUObject.dll!FSoftObjectPath::Serialize() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SoftObjectPath.cpp:186]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fc401c9 UE4Editor-CoreUObject.dll!UScriptStruct::TCppStructOps<FSoftObjectPath>::Serialize() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Public\UObject\Class.h:1205]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fba9516 UE4Editor-CoreUObject.dll!UScriptStruct::SerializeItem() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:2717]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fd018c7 UE4Editor-CoreUObject.dll!FStructProperty::SerializeItem() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\PropertyStruct.cpp:152]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fd01e22 UE4Editor-CoreUObject.dll!FPropertyTag::SerializeTaggedProperty() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\PropertyTag.cpp:240]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fbabbd5 UE4Editor-CoreUObject.dll!UStruct::SerializeVersionedTaggedProperties() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:1568]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fba9b1c UE4Editor-CoreUObject.dll!UStruct::SerializeTaggedProperties() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:1266]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fba962e UE4Editor-CoreUObject.dll!UScriptStruct::SerializeItem() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:2757]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fd018c7 UE4Editor-CoreUObject.dll!FStructProperty::SerializeItem() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\PropertyStruct.cpp:152]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fc8c525 UE4Editor-CoreUObject.dll!FArrayProperty::SerializeItem() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\PropertyArray.cpp:300]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fd01e22 UE4Editor-CoreUObject.dll!FPropertyTag::SerializeTaggedProperty() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\PropertyTag.cpp:240]
+[2021.09.07-09.47.29:780][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fbabbd5 UE4Editor-CoreUObject.dll!UStruct::SerializeVersionedTaggedProperties() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:1568]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fba9b1c UE4Editor-CoreUObject.dll!UStruct::SerializeTaggedProperties() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:1266]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fc8c8b4 UE4Editor-CoreUObject.dll!UObject::SerializeScriptProperties() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Obj.cpp:1438]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fc8aeea UE4Editor-CoreUObject.dll!UObject::Serialize() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Obj.cpp:1358]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fc8a9fb UE4Editor-CoreUObject.dll!UObject::Serialize() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Obj.cpp:1247]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffafd917f70 UE4Editor-Engine.dll!UBlueprintCore::Serialize() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp:274]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffafd917a78 UE4Editor-Engine.dll!UBlueprint::Serialize() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp:418]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fce0bb2 UE4Editor-CoreUObject.dll!FArchiveSaveTagExports::ProcessTaggedObjects() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SavePackage.cpp:881]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fd07eac UE4Editor-CoreUObject.dll!FPackageExportTagger::TagPackageExports() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SavePackage.cpp:2624]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb5fce9f09 UE4Editor-CoreUObject.dll!UPackage::Save() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SavePackage.cpp:3530]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb12884127 UE4Editor-UnrealEd.dll!UEditorEngine::Save() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\UnrealEd\Private\EditorEngine.cpp:4511]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb12884bac UE4Editor-UnrealEd.dll!UEditorEngine::SavePackage() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\UnrealEd\Private\EditorEngine.cpp:4523]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb128c1fe2 UE4Editor-UnrealEd.dll!UEditorEngine::Exec_Obj() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp:4607]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb128be8fe UE4Editor-UnrealEd.dll!UEditorEngine::Exec() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp:5705]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb130f8597 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\UnrealEd\Private\UnrealEdSrv.cpp:697]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb12c2aad0 UE4Editor-UnrealEd.dll!InternalSavePackage() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\UnrealEd\Private\FileHelpers.cpp:3081]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb12c293b5 UE4Editor-UnrealEd.dll!InternalPromptForCheckoutAndSave() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\UnrealEd\Private\FileHelpers.cpp:3595]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb12c3e3c0 UE4Editor-UnrealEd.dll!FEditorFileUtils::PromptForCheckoutAndSave() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\UnrealEd\Private\FileHelpers.cpp:3865]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffaef2387b7 UE4Editor-AssetTools.dll!FAssetRenameManager::PerformAssetRename() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Developer\AssetTools\Private\AssetRenameManager.cpp:1385]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffaef1e4816 UE4Editor-AssetTools.dll!FAssetRenameManager::FixReferencesAndRename() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Developer\AssetTools\Private\AssetRenameManager.cpp:451]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffaef251592 UE4Editor-AssetTools.dll!FAssetRenameManager::RenameAssetsWithDialog() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Developer\AssetTools\Private\AssetRenameManager.cpp:269]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffaf85087ed UE4Editor-ContentBrowser.dll!ContentBrowserUtils::RenameAsset() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\ContentBrowser\Private\ContentBrowserUtils.cpp:470]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffaf85766e2 UE4Editor-ContentBrowser.dll!SAssetView::AssetRenameCommit() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\ContentBrowser\Private\SAssetView.cpp:4543]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffaf85c3cda UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SAssetView,0,void __cdecl(TSharedPtr<FAssetViewItem,0> const &,FString const &,FSlateRect const &,enum ETextCommit::Type)>::ExecuteIfSafe() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:374]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffaf84de1fb UE4Editor-ContentBrowser.dll!SAssetViewItem::HandleNameCommitted() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Editor\ContentBrowser\Private\AssetViewWidgets.cpp:619]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffaf84bfacf UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SAssetTileItem,0,void __cdecl(FText const &,enum ETextCommit::Type)>::ExecuteIfSafe() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:374]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb1f61df42 UE4Editor-Slate.dll!SInlineEditableTextBlock::OnTextBoxCommitted() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Slate\Private\Widgets\Text\SInlineEditableTextBlock.cpp:313]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb1f6076cf UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SInlineEditableTextBlock,0,void __cdecl(FText const &,enum ETextCommit::Type)>::ExecuteIfSafe() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:374]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb1f501f8f UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SEditableTextBox,0,void __cdecl(FText const &,enum ETextCommit::Type)>::ExecuteIfSafe() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:374]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb1f60dbe6 UE4Editor-Slate.dll!FSlateEditableTextLayout::HandleCarriageReturn() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Slate\Private\Widgets\Text\SlateEditableTextLayout.cpp:1519]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb1f60eff8 UE4Editor-Slate.dll!FSlateEditableTextLayout::HandleKeyDown() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Slate\Private\Widgets\Text\SlateEditableTextLayout.cpp:967]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb1f5199e4 UE4Editor-Slate.dll!SEditableText::OnKeyDown() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Slate\Private\Widgets\Input\SEditableText.cpp:211]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb1f36061b UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_348e43676c71ef9c842236ae8e30eb35> >() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp:372]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb1f3cd561 UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp:4204]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb1f3c0f16 UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp:4112]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb6ab57c25 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsApplication.cpp:1968]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb6ab45c87 UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsApplication.cpp:2585]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb6ab5a609 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsApplication.cpp:1809]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb6ab417d0 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsApplication.cpp:852]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb909ae858 USER32.dll!UnknownFunction []
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb909ae299 USER32.dll!UnknownFunction []
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb6ab5bb24 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsPlatformApplicationMisc.cpp:130]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ff79b4f68c4 UE4Editor.exe!FEngineLoop::Tick() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:4762]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ff79b50ba7c UE4Editor.exe!GuardedMain() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:169]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ff79b50bb5a UE4Editor.exe!GuardedMainWrapper() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:137]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ff79b51e31d UE4Editor.exe!WinMain() [D:\Build\++UE4+Licensee\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:268]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ff79b52145a UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\5\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb91477034 KERNEL32.DLL!UnknownFunction []
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: [Callstack] 0x00007ffb92902651 ntdll.dll!UnknownFunction []
+[2021.09.07-09.47.29:781][221]LogOutputDevice: Error: 
