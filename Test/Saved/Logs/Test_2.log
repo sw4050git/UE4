@@ -1,8 +1,8 @@
-﻿Log file open, 09/06/21 15:47:04
+﻿Log file open, 09/10/21 21:22:11
 LogInit: Display: Running engine for game: Test
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.165095
+LogStats: Stats thread started at 0.148787
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -144,7 +144,7 @@ LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  /Game/TestGame/Maps/NewWorld -game -PIEVIACONSOLE -Multiprocess "GameUserSettingsINI=C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/PIEGameUserSettings0.ini" -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
+LogInit: Command Line:  /Game/TestGame/Maps/NewWorld -game -PIEVIACONSOLE -Multiprocess "GameUserSettingsINI=C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/PIEGameUserSettings0.ini" -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -featureleveles31 -faketouches -MultiprocessSaveConfig -windowed -ResX=1280 -ResY=720
 LogInit: Base Directory: C:/UE4/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -194,1067 +194,426 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
-[2021.09.06-06.47.04:547][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.09.06-06.47.04:547][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
-[2021.09.06-06.47.04:547][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
-[2021.09.06-06.47.04:550][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.09.06-06.47.04:550][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.09.06-06.47.04:551][  0]LogInit: Selected Device Profile: [Windows]
-[2021.09.06-06.47.04:551][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.09.06-06.47.04:551][  0]LogHAL: Display: Platform has ~ 32 GB [34293813248 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.09.06-06.47.04:551][  0]LogInit: Going up to parent DeviceProfile []
-[2021.09.06-06.47.04:551][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.09.06-06.47.04:551][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.09.06-06.47.04:552][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.09.06-06.47.04:553][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
-[2021.09.06-06.47.04:553][  0]LogInit: Computer: DESKTOP-L6S36HL
-[2021.09.06-06.47.04:553][  0]LogInit: User: user
-[2021.09.06-06.47.04:553][  0]LogInit: CPU Page size=4096, Cores=8
-[2021.09.06-06.47.04:553][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.09.06-06.47.04:553][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2021.09.06-06.47.04:553][  0]LogMemory: Platform Memory Stats for Windows
-[2021.09.06-06.47.04:553][  0]LogMemory: Process Physical Memory: 116.72 MB used, 116.72 MB peak
-[2021.09.06-06.47.04:553][  0]LogMemory: Process Virtual Memory: 101.26 MB used, 101.26 MB peak
-[2021.09.06-06.47.04:553][  0]LogMemory: Physical Memory: 10930.28 MB used,  21774.85 MB free, 32705.13 MB total
-[2021.09.06-06.47.04:553][  0]LogMemory: Virtual Memory: 5154.02 MB used,  134212576.00 MB free, 134217728.00 MB total
-[2021.09.06-06.47.04:559][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.09.06-06.47.04:600][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.09.06-06.47.04:600][  0]LogInit: Using OS detected language (ja-JP).
-[2021.09.06-06.47.04:600][  0]LogInit: Using OS detected locale (ja-JP).
-[2021.09.06-06.47.04:602][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2021.09.06-06.47.04:707][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.09.06-06.47.04:707][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.09.06-06.47.04:713][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.09.06-06.47.04:713][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.09.06-06.47.04:713][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.09.06-06.47.04:713][  0]LogD3D11RHI: D3D11 adapters:
-[2021.09.06-06.47.04:773][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
-[2021.09.06-06.47.04:773][  0]LogD3D11RHI:       8031/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2021.09.06-06.47.04:775][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.09.06-06.47.04:775][  0]LogD3D11RHI:       0/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.09.06-06.47.04:775][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.09.06-06.47.04:780][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.09.06-06.47.04:780][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
-[2021.09.06-06.47.04:780][  0]LogWindows: EnumDisplayDevices:
-[2021.09.06-06.47.04:780][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
-[2021.09.06-06.47.04:780][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
-[2021.09.06-06.47.04:780][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2021.09.06-06.47.04:780][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2021.09.06-06.47.04:781][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.09.06-06.47.04:781][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
-[2021.09.06-06.47.04:781][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
-[2021.09.06-06.47.04:781][  0]LogD3D11RHI:      Driver Date: 9-30-2020
-[2021.09.06-06.47.04:781][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2021.09.06-06.47.04:825][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.09.06-06.47.04:825][  0]LogD3D11RHI: Async texture creation enabled
-[2021.09.06-06.47.04:825][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.09.06-06.47.04:848][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.09.06-06.47.05:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.09.06-06.47.05:052][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.09.06-06.47.05:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.09.06-06.47.05:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.09.06-06.47.05:067][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.09.06-06.47.05:074][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.09.06-06.47.05:128][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Intermediate/Shaders/WorkingDirectory/14576/).
-[2021.09.06-06.47.05:128][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/564C4E02410C97295FB072B9A4C4B89E/'.
-[2021.09.06-06.47.05:128][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.09.06-06.47.05:128][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.09.06-06.47.05:129][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.09.06-06.47.05:711][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.09.06-06.47.05:746][  0]LogDerivedDataCache: Loaded boot cache 0.03s 76MB C:/Users/user/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.09.06-06.47.05:746][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.09.06-06.47.05:746][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/user/Documents/Unreal Projects/UE4/Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.09.06-06.47.05:746][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.09.06-06.47.05:746][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/user/Documents/Unreal Projects/UE4/Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.09.06-06.47.05:746][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.09.06-06.47.05:754][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.09.06-06.47.05:754][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.09.06-06.47.05:754][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.09.06-06.47.05:755][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.09.06-06.47.05:755][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.09.06-06.47.05:755][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.09.06-06.47.05:785][  0]LogSlate: Using FreeType 2.10.0
-[2021.09.06-06.47.05:785][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.09.06-06.47.05:843][  0]LogInit: Using OS detected language (ja-JP).
-[2021.09.06-06.47.05:843][  0]LogInit: Using OS detected locale (ja-JP).
-[2021.09.06-06.47.05:843][  0]LogTextLocalizationManager: No localization for 'ja-JP' exists, so 'en' will be used for the language.
-[2021.09.06-06.47.05:843][  0]LogTextLocalizationManager: No localization for 'ja-JP' exists, so 'en' will be used for the locale.
-[2021.09.06-06.47.05:843][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2021.09.06-06.47.05:843][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2021.09.06-06.47.05:844][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2021.09.06-06.47.05:846][  0]LogAssetRegistry: FAssetRegistry took 0.0012 seconds to start up
-[2021.09.06-06.47.05:976][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.000646 seconds
-[2021.09.06-06.47.06:010][  0]LogInit: Selected Device Profile: [Windows]
-[2021.09.06-06.47.06:045][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.09.06-06.47.06:045][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.09.06-06.47.06:045][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.09.06-06.47.06:045][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.09.06-06.47.06:045][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.09.06-06.47.06:107][  0]LogNetVersion: Test 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3542995773)
-[2021.09.06-06.47.06:274][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000014695B4C580), frame # 0
-[2021.09.06-06.47.06:274][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000014695A956C0), frame # 0
-[2021.09.06-06.47.06:275][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014695ADAE00), frame # 0
-[2021.09.06-06.47.06:345][  0]LogCollectionManager: Loaded 0 collections in 0.001439 seconds
-[2021.09.06-06.47.06:347][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Collections/' took 0.00s
-[2021.09.06-06.47.06:347][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/UE4/Test/Content/Developers/user/Collections/' took 0.00s
-[2021.09.06-06.47.06:347][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/UE4/Test/Content/Collections/' took 0.00s
-[2021.09.06-06.47.06:347][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2021.09.06-06.47.06:395][  0]LogMoviePlayer: Initializing movie player
-[2021.09.06-06.47.06:539][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.09.06-06.47.06:542][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.09.06-06.47.06:578][  0]SourceControl: ソースコントロールは無効です
-[2021.09.06-06.47.06:579][  0]SourceControl: ソースコントロールは無効です
-[2021.09.06-06.47.06:585][  0]SourceControl: ソースコントロールは無効です
-[2021.09.06-06.47.06:696][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.09.06-06.47.06:712][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.09.06-06.47.06:712][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.09.06-06.47.06:747][  0]LogOcInput: OculusInput pre-init called
-[2021.09.06-06.47.06:758][  0]LogUObjectArray: 19074 objects as part of root set at end of initial load.
-[2021.09.06-06.47.06:758][  0]LogUObjectAllocator: 5024720 out of 0 bytes used by permanent object pool.
-[2021.09.06-06.47.06:758][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.09.06-06.47.06:789][  0]LogEngine: Initializing Engine...
-[2021.09.06-06.47.06:790][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.09.06-06.47.06:790][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.09.06-06.47.06:791][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.09.06-06.47.06:852][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.09.06-06.47.06:855][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.09.06-06.47.06:855][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.09.06-06.47.06:855][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.09.06-06.47.06:855][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.09.06-06.47.06:856][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.09.06-06.47.06:856][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.09.06-06.47.06:856][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.09.06-06.47.06:856][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.09.06-06.47.06:856][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.09.06-06.47.06:856][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.09.06-06.47.06:864][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.09.06-06.47.06:864][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.09.06-06.47.06:882][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
-[2021.09.06-06.47.06:884][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.09.06-06.47.06:885][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.09.06-06.47.06:885][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.09.06-06.47.06:885][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.09.06-06.47.06:886][  0]LogInit: FAudioDevice initialized.
-[2021.09.06-06.47.06:886][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.09.06-06.47.06:887][  0]LogInit: Texture streaming: Enabled
-[2021.09.06-06.47.06:928][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.09.06-06.47.06:928][  0]LogInit: Display: Game Engine Initialized.
-[2021.09.06-06.47.06:929][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
-[2021.09.06-06.47.06:950][  0]LogInit: Display: Starting Game.
-[2021.09.06-06.47.06:950][  0]LogNet: Browse: /Game/TestGame/Maps/NewWorld?Name=Player
-[2021.09.06-06.47.06:950][  0]LogLoad: LoadMap: /Game/TestGame/Maps/NewWorld?Name=Player
-[2021.09.06-06.47.06:950][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2021.09.06-06.47.06:951][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.09.06-06.47.06:951][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.09.06-06.47.06:960][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
-[2021.09.06-06.47.07:133][  0]LogK2Compiler: ピンの接続が見つかりません！AllocateDefaultPins() の一貫性を確認してください
-[2021.09.06-06.47.07:133][  0]LogBlueprint: Error: [Compiler BP_Locker] 使用中のピン  Hiding  がノード  Hide  に存在しなくなりました。ノードを更新するかリンクを解除して、ピンを削除してください。
-[2021.09.06-06.47.07:388][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
-[2021.09.06-06.47.07:388][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
-[2021.09.06-06.47.07:388][  0]LogPhysics: Warning: Failed to cook convex: /Game/TestGame/Maps/SM/door.door 0 (FlipX:0). The remaining elements will not get cooked.
-[2021.09.06-06.47.07:388][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
-[2021.09.06-06.47.07:388][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
-[2021.09.06-06.47.07:388][  0]LogPhysics: Warning: Failed to cook convex: /Game/TestGame/Maps/SM/door.door 0 (FlipX:1). The remaining elements will not get cooked.
-[2021.09.06-06.47.07:388][  0]LogPhysics: Warning: Attempt to build physics data for /Game/TestGame/Maps/SM/door.door:BodySetup_0 when we are unable to.
-[2021.09.06-06.47.07:409][  0]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Sprite' for 'TextRender' in BlueprintGeneratedClass 'BP_TargetPoint_C' (it may have been removed)
-[2021.09.06-06.47.07:461][  0]LogAIModule: Creating AISystem for world NewWorld
-[2021.09.06-06.47.07:462][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014691896400), frame # 0
-[2021.09.06-06.47.07:462][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001468A9DB100), frame # 0
-[2021.09.06-06.47.07:462][  0]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2021.09.06-06.47.07:465][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:465][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:465][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:465][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:466][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:467][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:478][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:478][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:478][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:478][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:478][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:478][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:478][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:478][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:478][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:478][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:479][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:480][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:481][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:482][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:483][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:484][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:485][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:486][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:487][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:488][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:489][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:490][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:491][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2021.09.06-06.47.07:491][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2021.09.06-06.47.07:510][  0]LogWorld: Bringing World /Game/TestGame/Maps/NewWorld.NewWorld up for play (max tick rate 0) at 2021.09.06-15.47.07
-[2021.09.06-06.47.07:511][  0]LogWorld: Bringing up level for play took: 0.049604
-[2021.09.06-06.47.07:517][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.07:517][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.09.06-06.47.07:517][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.09.06-06.47.07:517][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.07:517][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.09.06-06.47.07:517][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.07:517][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.09.06-06.47.07:517][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.09.06-06.47.07:518][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.09.06-06.47.07:544][  0]LogLoad: Took 0.593536 seconds to LoadMap(/Game/TestGame/Maps/NewWorld)
-[2021.09.06-06.47.07:559][  0]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.09.06-06.47.07:572][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2021.09.06-06.47.07:572][  0]LogLoad: (Engine Initialization) Total time: 4.26 seconds
-[2021.09.06-06.47.07:572][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.09.06-06.47.07:594][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.09.06-06.47.07:596][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.09.06-06.47.07:625][  1]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.09.06-06.47.07:628][  2]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint
-[2021.09.06-06.47.07:628][  2]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint10
-[2021.09.06-06.48.04:889][277]LogSlate: Window 'Test (64-bit Development PCD3D_SM5) ' being destroyed
-[2021.09.06-06.48.04:893][277]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2021.09.06-06.48.04:895][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.09.06-06.48.04:895][277]LogEngine: All Windows Closed
-[2021.09.06-06.48.04:895][277]LogWindows: FPlatformMisc::RequestExit(0)
-[2021.09.06-06.48.04:895][277]LogCore: Engine exit requested (reason: Win RequestExit)
-[2021.09.06-06.48.04:895][278]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2021.09.06-06.48.04:897][278]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
-[2021.09.06-06.48.04:904][278]LogInit: Display: PreExit Game.
-[2021.09.06-06.48.04:905][278]LogWorld: BeginTearingDown for /Game/TestGame/Maps/NewWorld
-[2021.09.06-06.48.04:905][278]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
-[2021.09.06-06.48.04:906][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.09.06-06.48.05:823][278]LogExit: Preparing to exit.
-[2021.09.06-06.48.06:573][278]LogMoviePlayer: Shutting down movie player
-[2021.09.06-06.48.06:696][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.09.06-06.48.06:699][278]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2021.09.06-06.48.06:703][278]LogExit: Game engine shut down
-[2021.09.06-06.48.06:711][278]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000014695B4C580), frame # 25278
-[2021.09.06-06.48.06:711][278]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000014695A956C0), frame # 25278
-[2021.09.06-06.48.06:711][278]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000014695ADAE00), frame # 25278
-[2021.09.06-06.48.06:715][278]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000014691896400), frame # 25278
-[2021.09.06-06.48.06:715][278]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001468A9DB100), frame # 25278
-[2021.09.06-06.48.06:738][278]LogExit: Object subsystem successfully closed.
-[2021.09.06-06.48.06:756][278]LogShaderCompilers: Display: Shaders left to compile 0
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (504)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module SequenceRecorder (502)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module AutomationController (500)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module AutomationWorker (498)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module Voice (496)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module AIModule (494)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module GameplayDebugger (493)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module AITestSuite (491)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module NavigationSystem (489)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module OculusMR (486)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (482)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module WebMMedia (480)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (478)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (476)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (474)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (472)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (470)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module PlanarCut (468)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (462)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module LiveCoding (460)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module LevelSequence (458)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (456)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module MovieScene (454)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (452)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module PortalServices (450)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module PortalRpc (448)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module MessagingRpc (446)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (444)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module AudioMixerCore (443)
-[2021.09.06-06.48.06:770][278]LogModuleManager: Shutting down and abandoning module ProfilerService (440)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module TaskGraph (438)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module Synthesis (436)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (434)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module OculusInput (432)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (430)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module GooglePAD (428)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module EditableMesh (426)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (424)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module CableComponent (422)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module AudioCapture (420)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (419)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module AssetTags (416)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (414)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (412)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module AppleImageUtils (410)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module AndroidPermission (408)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (406)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (404)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module TemplateSequence (402)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (400)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (398)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (396)
-[2021.09.06-06.48.06:879][278]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (395)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module ImgMedia (390)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (388)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (386)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (378)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module MeshConversion (376)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module DynamicMesh (374)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (372)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module GeometricObjects (370)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (368)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (367)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (363)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module GeometryCache (360)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (359)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module ChaosNiagara (356)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module ChaosCloth (354)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module BackChannel (352)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module AutomationUtils (350)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (348)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module HotReload (347)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (344)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module UObjectPlugin (342)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (340)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (338)
-[2021.09.06-06.48.06:882][278]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (336)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module SourceControl (335)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (332)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (330)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module Test (328)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module SoundFields (326)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module SignificanceManager (324)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (322)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (320)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (316)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module ActorSequence (314)
-[2021.09.06-06.48.06:883][278]LogModuleManager: Shutting down and abandoning module UdpMessaging (312)
-[2021.09.06-06.48.06:984][278]LogModuleManager: Shutting down and abandoning module TcpMessaging (310)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (308)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (306)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (304)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (302)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (300)
-[2021.09.06-06.48.07:570][278]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (298)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (296)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (294)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (292)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapController (290)
-[2021.09.06-06.48.07:570][278]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (288)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module MagicLeapAR (286)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module AugmentedReality (285)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (282)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module Niagara (280)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module SignalProcessing (279)
-[2021.09.06-06.48.07:570][278]LogModuleManager: Shutting down and abandoning module NiagaraEditor (277)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module NiagaraCore (274)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (272)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module FacialAnimation (270)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module TreeMap (267)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module AnimationSharing (264)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (262)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module Paper2D (260)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (258)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (256)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (254)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module PacketHandler (252)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (250)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (248)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module MediaAssets (246)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module Overlay (244)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module OverlayEditor (243)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module VREditor (240)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module StringTableEditor (238)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (236)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (234)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module FunctionalTesting (232)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (230)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module UMG (228)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module UMGEditor (227)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module Sequencer (226)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module MessageLog (223)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module MaterialEditor (221)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module ContentBrowser (220)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
-[2021.09.06-06.48.07:571][278]LogModuleManager: Shutting down and abandoning module CollectionManager (217)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (216)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module SlateReflector (208)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module Slate (206)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module SlateCore (204)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module Messaging (194)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (192)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (190)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module XAudio2 (188)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module Networking (186)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module Core (184)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module MovieSceneTools (182)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module KismetCompiler (180)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module MeshBuilder (178)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module MeshUtilities (176)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (175)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (174)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (173)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (171)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (169)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (158)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (156)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2021.09.06-06.48.07:572][278]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (119)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (117)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (115)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (113)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module InputCore (110)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module Settings (108)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module Chaos (100)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module SteamVR (88)
-[2021.09.06-06.48.07:573][278]LogHMD: Freeing OpenVRDLLHandle.
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module XMPP (71)
-[2021.09.06-06.48.07:573][278]LogModuleManager: Shutting down and abandoning module WebSockets (70)
-[2021.09.06-06.48.07:592][278]LogModuleManager: Shutting down and abandoning module HTTP (67)
-[2021.09.06-06.48.07:610][278]LogModuleManager: Shutting down and abandoning module SSL (66)
-[2021.09.06-06.48.07:611][278]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module Media (61)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2021.09.06-06.48.07:613][278]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2021.09.06-06.48.07:614][278]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2021.09.06-06.48.08:076][278]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2021.09.06-06.48.08:077][278]LogD3D11RHI: Shutdown
-[2021.09.06-06.48.08:077][278]LogD3D11RHI: CleanupD3DDevice
-[2021.09.06-06.48.08:084][278]LogExit: Exiting.
-[2021.09.06-06.48.08:094][278]Log file closed, 09/06/21 15:48:08
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-12.22.12:000][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.09.10-12.22.12:000][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-12.22.12:000][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-12.22.12:003][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.10-12.22.12:003][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.10-12.22.12:004][  0]LogInit: Selected Device Profile: [Windows]
+[2021.09.10-12.22.12:004][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.09.10-12.22.12:004][  0]LogHAL: Display: Platform has ~ 32 GB [34293813248 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.09.10-12.22.12:004][  0]LogInit: Going up to parent DeviceProfile []
+[2021.09.10-12.22.12:004][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.10-12.22.12:004][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.09.10-12.22.12:005][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-12.22.12:005][  0]LogInit: Computer: DESKTOP-L6S36HL
+[2021.09.10-12.22.12:005][  0]LogInit: User: user
+[2021.09.10-12.22.12:005][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.09.10-12.22.12:005][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.09.10-12.22.12:005][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.09.10-12.22.12:005][  0]LogMemory: Platform Memory Stats for Windows
+[2021.09.10-12.22.12:006][  0]LogMemory: Process Physical Memory: 116.50 MB used, 116.50 MB peak
+[2021.09.10-12.22.12:006][  0]LogMemory: Process Virtual Memory: 101.04 MB used, 101.04 MB peak
+[2021.09.10-12.22.12:006][  0]LogMemory: Physical Memory: 9947.25 MB used,  22757.88 MB free, 32705.13 MB total
+[2021.09.10-12.22.12:006][  0]LogMemory: Virtual Memory: 5154.02 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2021.09.10-12.22.12:010][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.09.10-12.22.12:046][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.09.10-12.22.12:046][  0]LogInit: Using OS detected language (ja-JP).
+[2021.09.10-12.22.12:046][  0]LogInit: Using OS detected locale (ja-JP).
+[2021.09.10-12.22.12:049][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2021.09.10-12.22.12:144][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.09.10-12.22.12:144][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.09.10-12.22.12:152][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.09.10-12.22.12:152][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.09.10-12.22.12:152][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.09.10-12.22.12:152][  0]LogD3D11RHI: D3D11 adapters:
+[2021.09.10-12.22.12:218][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2021.09.10-12.22.12:218][  0]LogD3D11RHI:       8031/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.09.10-12.22.12:220][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.09.10-12.22.12:220][  0]LogD3D11RHI:       0/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.09.10-12.22.12:220][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.09.10-12.22.12:224][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.09.10-12.22.12:224][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
+[2021.09.10-12.22.12:224][  0]LogWindows: EnumDisplayDevices:
+[2021.09.10-12.22.12:224][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2021.09.10-12.22.12:224][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2021.09.10-12.22.12:224][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.09.10-12.22.12:224][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.09.10-12.22.12:224][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.09.10-12.22.12:224][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2021.09.10-12.22.12:224][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.09.10-12.22.12:224][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.09.10-12.22.12:225][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.09.10-12.22.12:271][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.09.10-12.22.12:271][  0]LogD3D11RHI: Async texture creation enabled
+[2021.09.10-12.22.12:271][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.09.10-12.22.12:293][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.09.10-12.22.12:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.09.10-12.22.12:508][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.09.10-12.22.12:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.09.10-12.22.12:521][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.09.10-12.22.12:521][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.09.10-12.22.12:526][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.09.10-12.22.12:565][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Intermediate/Shaders/WorkingDirectory/14368/).
+[2021.09.10-12.22.12:565][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/36D5465C454F1A2675EE92B1FD663C6F/'.
+[2021.09.10-12.22.12:566][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.09.10-12.22.12:566][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.09.10-12.22.12:566][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.09.10-12.22.13:054][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.09.10-12.22.13:090][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/user/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.09.10-12.22.13:090][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.09.10-12.22.13:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/user/Documents/Unreal Projects/UE4/Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.09.10-12.22.13:090][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.09.10-12.22.13:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/user/Documents/Unreal Projects/UE4/Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.09.10-12.22.13:090][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.09.10-12.22.13:098][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.09.10-12.22.13:098][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.09.10-12.22.13:098][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.09.10-12.22.13:099][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.09.10-12.22.13:099][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.09.10-12.22.13:099][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.09.10-12.22.13:282][  0]LogSlate: Using FreeType 2.10.0
+[2021.09.10-12.22.13:282][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 497
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 496
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 495
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 494
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 493
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 492
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 491
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 490
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 489
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 488
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 487
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 486
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 485
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 484
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 483
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 482
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 481
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 480
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 479
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 478
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 477
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 476
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 475
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 474
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 473
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 472
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 471
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 470
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 469
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 468
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 467
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 466
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 465
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 464
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 463
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 462
+[2021.09.10-12.22.13:857][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 461
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 460
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 459
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 458
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 457
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 456
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 455
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 454
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 453
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 452
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 451
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 450
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 449
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 448
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 447
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 446
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 445
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 444
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 443
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 442
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 441
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 440
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 439
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 438
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 437
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 436
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 435
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 434
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 433
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 432
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 431
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 430
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 429
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 428
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 427
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 426
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 425
+[2021.09.10-12.22.14:416][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 424
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 423
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 422
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 421
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 420
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 419
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 418
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 417
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 416
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 415
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 414
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 413
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 412
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 411
+[2021.09.10-12.22.14:975][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 410
+[2021.09.10-12.22.15:534][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 409
+[2021.09.10-12.22.15:534][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 408
+[2021.09.10-12.22.15:534][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 407
+[2021.09.10-12.22.15:534][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 406
+[2021.09.10-12.22.15:534][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 405
+[2021.09.10-12.22.15:534][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 404
+[2021.09.10-12.22.16:091][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 403
+[2021.09.10-12.22.16:091][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 402
+[2021.09.10-12.22.16:091][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 401
+[2021.09.10-12.22.16:091][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 400
+[2021.09.10-12.22.16:091][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 399
+[2021.09.10-12.22.16:091][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 398
+[2021.09.10-12.22.16:091][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 397
+[2021.09.10-12.22.16:091][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 396
+[2021.09.10-12.22.16:091][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 395

@@ -1,0 +1,2148 @@
+﻿Log file open, 09/10/21 20:15:07
+LogInit: Display: Running engine for game: Test
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.148885
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2070
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  /Game/TestGame/Maps/NewWorld -game -PIEVIACONSOLE -Multiprocess "GameUserSettingsINI=C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/PIEGameUserSettings0.ini" -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
+LogInit: Base Directory: C:/UE4/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-11.15.07:298][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.09.10-11.15.07:298][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-11.15.07:298][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-11.15.07:301][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.10-11.15.07:301][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.10-11.15.07:301][  0]LogInit: Selected Device Profile: [Windows]
+[2021.09.10-11.15.07:301][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.09.10-11.15.07:301][  0]LogHAL: Display: Platform has ~ 32 GB [34293813248 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.09.10-11.15.07:302][  0]LogInit: Going up to parent DeviceProfile []
+[2021.09.10-11.15.07:302][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.10-11.15.07:302][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.09.10-11.15.07:303][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.09.10-11.15.07:303][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.09.10-11.15.07:303][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.09.10-11.15.07:303][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Engine.ini]
+[2021.09.10-11.15.07:303][  0]LogInit: Computer: DESKTOP-L6S36HL
+[2021.09.10-11.15.07:303][  0]LogInit: User: user
+[2021.09.10-11.15.07:303][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.09.10-11.15.07:303][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.09.10-11.15.07:303][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.09.10-11.15.07:303][  0]LogMemory: Platform Memory Stats for Windows
+[2021.09.10-11.15.07:303][  0]LogMemory: Process Physical Memory: 116.22 MB used, 116.23 MB peak
+[2021.09.10-11.15.07:303][  0]LogMemory: Process Virtual Memory: 102.30 MB used, 102.30 MB peak
+[2021.09.10-11.15.07:303][  0]LogMemory: Physical Memory: 9171.58 MB used,  23533.55 MB free, 32705.13 MB total
+[2021.09.10-11.15.07:303][  0]LogMemory: Virtual Memory: 5155.02 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2021.09.10-11.15.07:307][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.09.10-11.15.07:340][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.09.10-11.15.07:340][  0]LogInit: Using OS detected language (ja-JP).
+[2021.09.10-11.15.07:340][  0]LogInit: Using OS detected locale (ja-JP).
+[2021.09.10-11.15.07:341][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2021.09.10-11.15.07:432][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.09.10-11.15.07:432][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.09.10-11.15.07:440][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.09.10-11.15.07:440][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.09.10-11.15.07:440][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.09.10-11.15.07:440][  0]LogD3D11RHI: D3D11 adapters:
+[2021.09.10-11.15.07:498][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2021.09.10-11.15.07:498][  0]LogD3D11RHI:       8031/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.09.10-11.15.07:500][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.09.10-11.15.07:500][  0]LogD3D11RHI:       0/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.09.10-11.15.07:500][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.09.10-11.15.07:504][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.09.10-11.15.07:504][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
+[2021.09.10-11.15.07:504][  0]LogWindows: EnumDisplayDevices:
+[2021.09.10-11.15.07:504][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2021.09.10-11.15.07:504][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2021.09.10-11.15.07:505][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.09.10-11.15.07:505][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.09.10-11.15.07:505][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.09.10-11.15.07:505][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2021.09.10-11.15.07:505][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.09.10-11.15.07:505][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.09.10-11.15.07:505][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.09.10-11.15.07:550][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.09.10-11.15.07:550][  0]LogD3D11RHI: Async texture creation enabled
+[2021.09.10-11.15.07:550][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.09.10-11.15.07:579][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2021.09.10-11.15.07:778][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.09.10-11.15.07:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.09.10-11.15.07:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.09.10-11.15.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.09.10-11.15.07:793][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.09.10-11.15.07:798][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.09.10-11.15.07:836][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../Users/user/Documents/Unreal Projects/UE4/Test/Intermediate/Shaders/WorkingDirectory/9784/).
+[2021.09.10-11.15.07:836][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/F9A7746A402767FB2BD0ACBFA27C0BD1/'.
+[2021.09.10-11.15.07:836][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.09.10-11.15.07:836][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.09.10-11.15.07:836][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.09.10-11.15.08:411][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.09.10-11.15.08:448][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/user/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.09.10-11.15.08:449][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.09.10-11.15.08:449][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/user/Documents/Unreal Projects/UE4/Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.09.10-11.15.08:449][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.09.10-11.15.08:449][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/user/Documents/Unreal Projects/UE4/Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.09.10-11.15.08:449][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.09.10-11.15.08:456][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.09.10-11.15.08:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.09.10-11.15.08:456][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.09.10-11.15.08:457][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.09.10-11.15.08:457][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.09.10-11.15.08:457][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.09.10-11.15.08:487][  0]LogSlate: Using FreeType 2.10.0
+[2021.09.10-11.15.08:488][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.09.10-11.15.08:546][  0]LogInit: Using OS detected language (ja-JP).
+[2021.09.10-11.15.08:546][  0]LogInit: Using OS detected locale (ja-JP).
+[2021.09.10-11.15.08:546][  0]LogTextLocalizationManager: No localization for 'ja-JP' exists, so 'en' will be used for the language.
+[2021.09.10-11.15.08:546][  0]LogTextLocalizationManager: No localization for 'ja-JP' exists, so 'en' will be used for the locale.
+[2021.09.10-11.15.08:546][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.09.10-11.15.08:546][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.09.10-11.15.08:546][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2021.09.10-11.15.08:548][  0]LogAssetRegistry: FAssetRegistry took 0.0011 seconds to start up
+[2021.09.10-11.15.08:678][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.000749 seconds
+[2021.09.10-11.15.08:712][  0]LogInit: Selected Device Profile: [Windows]
+[2021.09.10-11.15.08:739][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.09.10-11.15.08:739][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.09.10-11.15.08:739][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.09.10-11.15.08:739][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.09.10-11.15.08:739][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.09.10-11.15.08:801][  0]LogNetVersion: Test 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3542995773)
+[2021.09.10-11.15.08:966][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000255593A4580), frame # 0
+[2021.09.10-11.15.08:966][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255592ED6C0), frame # 0
+[2021.09.10-11.15.08:967][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002555931EE00), frame # 0
+[2021.09.10-11.15.09:031][  0]LogCollectionManager: Loaded 0 collections in 0.001428 seconds
+[2021.09.10-11.15.09:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Collections/' took 0.00s
+[2021.09.10-11.15.09:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/UE4/Test/Content/Developers/user/Collections/' took 0.00s
+[2021.09.10-11.15.09:032][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.09.10-11.15.09:069][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/UE4/Test/Content/Collections/' took 0.00s
+[2021.09.10-11.15.09:069][  0]LogMoviePlayer: Initializing movie player
+[2021.09.10-11.15.09:200][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.09.10-11.15.09:202][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.09.10-11.15.09:230][  0]SourceControl: ソースコントロールは無効です
+[2021.09.10-11.15.09:230][  0]SourceControl: ソースコントロールは無効です
+[2021.09.10-11.15.09:234][  0]SourceControl: ソースコントロールは無効です
+[2021.09.10-11.15.09:316][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.09.10-11.15.09:328][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.09.10-11.15.09:328][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.09.10-11.15.09:358][  0]LogOcInput: OculusInput pre-init called
+[2021.09.10-11.15.09:368][  0]LogUObjectArray: 19074 objects as part of root set at end of initial load.
+[2021.09.10-11.15.09:368][  0]LogUObjectAllocator: 5024720 out of 0 bytes used by permanent object pool.
+[2021.09.10-11.15.09:368][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.09.10-11.15.09:397][  0]LogEngine: Initializing Engine...
+[2021.09.10-11.15.09:398][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.09.10-11.15.09:398][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.09.10-11.15.09:399][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.09.10-11.15.09:459][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.09.10-11.15.09:462][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.10-11.15.09:462][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.10-11.15.09:462][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.10-11.15.09:462][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.10-11.15.09:462][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.10-11.15.09:462][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.10-11.15.09:462][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.10-11.15.09:462][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.10-11.15.09:462][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.10-11.15.09:462][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.10-11.15.09:470][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.10-11.15.09:470][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.09.10-11.15.09:489][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.09.10-11.15.09:491][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.10-11.15.09:491][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.10-11.15.09:491][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.10-11.15.09:492][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.09.10-11.15.09:493][  0]LogInit: FAudioDevice initialized.
+[2021.09.10-11.15.09:494][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.09.10-11.15.09:494][  0]LogInit: Texture streaming: Enabled
+[2021.09.10-11.15.09:533][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.10-11.15.09:533][  0]LogInit: Display: Game Engine Initialized.
+[2021.09.10-11.15.09:533][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2021.09.10-11.15.09:551][  0]LogInit: Display: Starting Game.
+[2021.09.10-11.15.09:551][  0]LogNet: Browse: /Game/TestGame/Maps/NewWorld?Name=Player
+[2021.09.10-11.15.09:551][  0]LogLoad: LoadMap: /Game/TestGame/Maps/NewWorld?Name=Player
+[2021.09.10-11.15.09:551][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.09.10-11.15.09:552][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.09.10-11.15.09:552][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.10-11.15.09:560][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.09.10-11.15.10:076][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.09.10-11.15.10:076][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.09.10-11.15.10:076][  0]LogPhysics: Warning: Failed to cook convex: /Game/TestGame/Maps/SM/door.door 0 (FlipX:0). The remaining elements will not get cooked.
+[2021.09.10-11.15.10:077][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.09.10-11.15.10:077][  0]LogPhysicsCore: Error: PHYSX: (D:\Build\++Fortnite\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\Cooking.cpp 198) eINVALID_PARAMETER : Cooking::cookConvexMesh: user-provided convex mesh descriptor is invalid!
+[2021.09.10-11.15.10:077][  0]LogPhysics: Warning: Failed to cook convex: /Game/TestGame/Maps/SM/door.door 0 (FlipX:1). The remaining elements will not get cooked.
+[2021.09.10-11.15.10:077][  0]LogPhysics: Warning: Attempt to build physics data for /Game/TestGame/Maps/SM/door.door:BodySetup_0 when we are unable to.
+[2021.09.10-11.15.10:079][  0]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Sprite' for 'TextRender' in BlueprintGeneratedClass 'BP_TargetPoint_C' (it may have been removed)
+[2021.09.10-11.15.10:102][  0]LogAIModule: Creating AISystem for world NewWorld
+[2021.09.10-11.15.10:102][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025554B1CC00), frame # 0
+[2021.09.10-11.15.10:102][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002554E4902C0), frame # 0
+[2021.09.10-11.15.10:102][  0]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.09.10-11.15.10:107][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:107][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:108][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:109][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:110][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:110][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:139][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:139][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:140][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:141][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:142][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:143][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:144][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:145][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:146][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:147][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:148][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:149][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:150][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:151][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:152][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:153][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:153][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:153][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:153][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:153][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2021.09.10-11.15.10:153][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.09.10-11.15.10:155][  0]LogWorld: Bringing World /Game/TestGame/Maps/NewWorld.NewWorld up for play (max tick rate 0) at 2021.09.10-20.15.10
+[2021.09.10-11.15.10:156][  0]LogWorld: Bringing up level for play took: 0.052422
+[2021.09.10-11.15.10:164][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.09.10-11.15.10:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/user/Documents/Unreal Projects/UE4/Test/Saved/Config/Windows/Scalability.ini]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.09.10-11.15.10:165][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.09.10-11.15.10:191][  0]t.MaxFPS = "60"
+[2021.09.10-11.15.10:191][  0]LogLoad: Took 0.639600 seconds to LoadMap(/Game/TestGame/Maps/NewWorld)
+[2021.09.10-11.15.10:222][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2021.09.10-11.15.10:222][  0]LogLoad: (Engine Initialization) Total time: 4.02 seconds
+[2021.09.10-11.15.10:222][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.09.10-11.15.10:262][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.09.10-11.15.10:264][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.10-11.15.10:278][  1]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:279][  1]LogBlueprintUserMessages: [BTT_SetFirstTargetPoint_C_0] BP_TargetPoint22
+[2021.09.10-11.15.10:279][  1]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.09.10-11.15.10:294][  2]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:295][  2]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint
+[2021.09.10-11.15.10:295][  2]LogBlueprintUserMessages: [BTT_SelectTargetPoint_C_0] BP_TargetPoint10
+[2021.09.10-11.15.10:311][  3]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:328][  4]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:344][  5]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:361][  6]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:378][  7]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:395][  8]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:411][  9]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:428][ 10]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:445][ 11]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:461][ 12]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:478][ 13]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:495][ 14]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:512][ 15]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:528][ 16]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:545][ 17]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:561][ 18]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:578][ 19]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:595][ 20]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:611][ 21]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:628][ 22]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:645][ 23]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:661][ 24]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:678][ 25]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:695][ 26]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:711][ 27]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:728][ 28]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:744][ 29]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:761][ 30]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:779][ 31]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:795][ 32]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:811][ 33]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:828][ 34]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:844][ 35]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:862][ 36]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:878][ 37]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:894][ 38]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:911][ 39]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:928][ 40]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:944][ 41]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:961][ 42]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:978][ 43]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.10:995][ 44]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:012][ 45]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:028][ 46]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:045][ 47]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:061][ 48]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:078][ 49]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:094][ 50]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:111][ 51]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:128][ 52]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:144][ 53]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:161][ 54]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:178][ 55]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:194][ 56]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:211][ 57]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:228][ 58]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:245][ 59]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:261][ 60]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:278][ 61]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:294][ 62]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:311][ 63]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.11:328][ 64]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:344][ 65]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:361][ 66]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:377][ 67]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:394][ 68]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:411][ 69]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:427][ 70]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:445][ 71]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:461][ 72]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:478][ 73]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:494][ 74]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:511][ 75]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:528][ 76]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:545][ 77]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:561][ 78]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:578][ 79]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:594][ 80]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:611][ 81]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:628][ 82]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:645][ 83]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:661][ 84]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:678][ 85]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:695][ 86]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:711][ 87]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:728][ 88]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:744][ 89]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:761][ 90]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:778][ 91]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:794][ 92]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:811][ 93]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:828][ 94]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:844][ 95]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:861][ 96]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:878][ 97]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:895][ 98]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:912][ 99]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:928][100]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:945][101]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:962][102]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:978][103]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.11:995][104]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:011][105]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:028][106]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:045][107]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:061][108]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:078][109]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:095][110]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:111][111]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:128][112]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:144][113]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:161][114]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:178][115]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:195][116]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:211][117]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:228][118]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:244][119]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:261][120]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:278][121]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:294][122]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:311][123]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:328][124]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:344][125]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:361][126]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:378][127]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:395][128]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:411][129]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:428][130]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:445][131]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:462][132]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:478][133]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:494][134]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:511][135]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:529][136]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:545][137]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:562][138]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:578][139]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:595][140]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:611][141]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:629][142]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:645][143]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:662][144]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:678][145]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:695][146]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:712][147]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:728][148]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:744][149]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:762][150]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:779][151]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:795][152]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:812][153]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:828][154]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:845][155]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:861][156]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:878][157]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:895][158]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:911][159]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:928][160]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:945][161]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:961][162]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:978][163]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.12:995][164]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:011][165]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:028][166]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:045][167]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:062][168]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:078][169]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:095][170]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:111][171]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:128][172]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:144][173]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:161][174]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:178][175]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:194][176]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:212][177]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:229][178]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:244][179]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:261][180]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:278][181]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:294][182]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:311][183]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:328][184]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:345][185]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:361][186]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:378][187]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:394][188]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:411][189]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:428][190]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:445][191]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:461][192]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:478][193]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:495][194]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:512][195]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:528][196]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:545][197]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:561][198]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:578][199]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:594][200]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:611][201]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:628][202]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:644][203]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:661][204]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:678][205]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:695][206]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:712][207]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:728][208]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:745][209]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:761][210]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:778][211]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:795][212]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:812][213]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:828][214]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:844][215]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:861][216]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:878][217]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:894][218]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:911][219]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:928][220]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:945][221]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:961][222]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:978][223]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.13:994][224]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.14:011][225]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.14:027][226]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.14:044][227]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.14:061][228]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.14:078][229]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.14:094][230]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.14:112][231]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.14:128][232]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.14:144][233]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:161][234]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:178][235]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:195][236]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:211][237]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:228][238]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:244][239]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:262][240]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:278][241]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:295][242]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:312][243]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:328][244]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:344][245]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:361][246]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:378][247]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:395][248]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:411][249]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:428][250]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:445][251]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:461][252]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:478][253]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:494][254]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:511][255]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:528][256]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:545][257]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:561][258]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:578][259]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:595][260]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:611][261]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:628][262]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:645][263]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:661][264]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:678][265]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:695][266]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:711][267]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:728][268]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:745][269]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:761][270]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:778][271]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:795][272]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:811][273]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:828][274]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:845][275]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:862][276]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:878][277]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:895][278]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:911][279]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:928][280]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:945][281]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:961][282]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:978][283]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.14:995][284]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:012][285]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:028][286]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:045][287]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:061][288]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:077][289]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:095][290]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:112][291]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:128][292]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:145][293]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:162][294]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:178][295]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:195][296]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:211][297]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:228][298]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:244][299]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:261][300]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:278][301]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:294][302]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:311][303]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:328][304]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:344][305]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:361][306]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:378][307]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:395][308]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:411][309]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:428][310]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:444][311]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:461][312]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:478][313]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:494][314]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:511][315]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:528][316]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:544][317]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:561][318]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:578][319]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:595][320]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:612][321]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:628][322]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:645][323]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:661][324]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:678][325]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:694][326]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:712][327]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:728][328]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:745][329]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:761][330]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:778][331]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:795][332]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:812][333]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:828][334]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:845][335]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:861][336]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:878][337]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:894][338]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:911][339]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:928][340]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:945][341]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:962][342]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:978][343]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.15:995][344]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:011][345]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:028][346]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:045][347]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:062][348]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:078][349]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:095][350]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:111][351]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:128][352]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:145][353]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:161][354]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:178][355]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:194][356]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:211][357]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:228][358]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:246][359]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.16:262][360]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.16:278][361]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.16:295][362]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.16:311][363]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.16:328][364]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.16:344][365]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.16:361][366]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.16:378][367]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:395][368]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:411][369]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:429][370]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:445][371]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:462][372]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:478][373]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:495][374]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:512][375]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:529][376]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:545][377]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:562][378]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:578][379]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:595][380]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:611][381]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:628][382]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:644][383]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:661][384]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:678][385]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:695][386]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:712][387]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:728][388]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:745][389]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:762][390]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:778][391]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:794][392]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:811][393]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:828][394]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:844][395]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:861][396]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:878][397]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:895][398]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:911][399]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:928][400]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:944][401]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:961][402]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:979][403]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.16:994][404]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:013][405]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:028][406]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:045][407]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:062][408]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:078][409]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:095][410]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:111][411]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:128][412]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:145][413]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:162][414]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:178][415]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:194][416]LogBlueprintUserMessages: [Player_C_0] 0.0002
+[2021.09.10-11.15.17:211][417]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:228][418]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:245][419]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:262][420]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:278][421]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:295][422]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:311][423]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:328][424]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:344][425]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:362][426]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:378][427]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:395][428]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:411][429]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:428][430]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:445][431]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.17:461][432]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:478][433]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:494][434]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:511][435]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:528][436]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:544][437]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:561][438]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:579][439]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:595][440]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:611][441]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:628][442]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:644][443]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:661][444]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:678][445]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:694][446]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:711][447]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:728][448]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:745][449]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:761][450]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:778][451]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:795][452]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:812][453]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:828][454]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:844][455]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:861][456]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:879][457]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:894][458]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:911][459]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:928][460]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:944][461]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:961][462]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:978][463]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.17:994][464]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:012][465]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:028][466]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:045][467]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:062][468]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:078][469]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:094][470]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:112][471]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:128][472]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:145][473]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:161][474]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:178][475]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:194][476]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:211][477]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:228][478]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:245][479]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:262][480]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:278][481]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:295][482]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:312][483]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:328][484]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:345][485]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:361][486]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:378][487]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:395][488]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:411][489]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:428][490]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:444][491]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:461][492]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:478][493]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:495][494]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:511][495]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:528][496]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:544][497]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:561][498]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:578][499]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:595][500]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:611][501]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:629][502]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:645][503]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:662][504]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:678][505]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:694][506]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:711][507]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:728][508]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:745][509]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:762][510]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:778][511]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:794][512]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:811][513]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:828][514]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:845][515]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:861][516]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:878][517]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:895][518]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:911][519]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:928][520]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:944][521]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:961][522]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:978][523]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.18:994][524]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:011][525]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:029][526]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:045][527]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:062][528]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:078][529]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:095][530]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:112][531]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:128][532]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:145][533]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:161][534]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:178][535]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:195][536]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:211][537]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:228][538]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:245][539]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:262][540]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:278][541]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:295][542]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:311][543]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:328][544]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:344][545]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:361][546]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:378][547]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:395][548]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:412][549]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:429][550]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:444][551]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:461][552]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:478][553]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:494][554]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:512][555]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:528][556]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:545][557]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:562][558]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:578][559]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:595][560]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:612][561]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:628][562]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:645][563]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:661][564]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:678][565]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:695][566]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:712][567]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:728][568]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:745][569]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:762][570]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:779][571]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:795][572]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:811][573]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:828][574]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:844][575]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:862][576]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:878][577]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:895][578]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:912][579]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:928][580]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:945][581]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:961][582]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:978][583]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.19:995][584]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:012][585]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:028][586]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:045][587]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:062][588]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:078][589]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:095][590]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:111][591]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:128][592]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:145][593]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:161][594]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:178][595]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:195][596]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:211][597]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:228][598]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:246][599]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:261][600]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:279][601]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:295][602]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:312][603]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:328][604]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:345][605]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:361][606]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:378][607]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:394][608]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:411][609]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:428][610]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:444][611]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:462][612]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:478][613]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:494][614]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:513][615]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:528][616]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:545][617]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:562][618]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:578][619]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:594][620]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:612][621]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:628][622]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:644][623]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:662][624]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:678][625]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:695][626]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:712][627]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:728][628]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:745][629]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:761][630]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:778][631]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:795][632]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:811][633]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:828][634]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:844][635]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:861][636]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:878][637]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:895][638]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:912][639]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:929][640]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:945][641]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:962][642]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:978][643]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.20:995][644]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:012][645]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:028][646]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:045][647]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:061][648]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:078][649]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:094][650]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:112][651]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:128][652]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:145][653]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:161][654]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:179][655]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:195][656]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:211][657]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:228][658]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:245][659]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:262][660]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:279][661]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:295][662]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:311][663]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:328][664]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:345][665]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:362][666]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:379][667]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:395][668]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:411][669]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:428][670]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:445][671]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:461][672]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:478][673]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:494][674]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:511][675]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:528][676]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:545][677]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:562][678]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:578][679]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:595][680]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:612][681]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:628][682]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:645][683]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:662][684]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:678][685]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:694][686]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:712][687]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:728][688]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:744][689]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:762][690]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:778][691]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:795][692]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:812][693]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:829][694]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:845][695]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:861][696]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:878][697]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:895][698]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:912][699]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:928][700]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:945][701]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:961][702]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:979][703]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.21:995][704]LogBlueprintUserMessages: [Player_C_0] 0.0001
+[2021.09.10-11.15.22:011][705]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:028][706]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:045][707]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:061][708]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:078][709]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:095][710]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:111][711]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:128][712]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:144][713]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:162][714]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:178][715]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:194][716]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:211][717]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:228][718]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:244][719]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:261][720]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:278][721]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:295][722]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:312][723]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:329][724]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:345][725]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:361][726]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:378][727]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:395][728]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:412][729]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:428][730]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:444][731]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:461][732]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:478][733]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:494][734]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:511][735]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:528][736]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:544][737]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:561][738]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:578][739]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:595][740]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:611][741]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:628][742]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:644][743]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:661][744]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:678][745]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:695][746]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:712][747]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:728][748]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:745][749]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:761][750]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:778][751]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:794][752]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:811][753]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:828][754]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:845][755]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:862][756]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:879][757]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:895][758]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:912][759]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:929][760]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:945][761]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:962][762]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:978][763]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.22:995][764]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:012][765]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:028][766]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:045][767]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:062][768]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:078][769]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:095][770]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:111][771]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:128][772]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:145][773]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:161][774]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:178][775]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:195][776]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:211][777]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:228][778]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:245][779]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:261][780]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:278][781]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:295][782]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:312][783]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:328][784]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:345][785]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:361][786]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:378][787]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:395][788]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:412][789]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:428][790]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:445][791]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:462][792]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:478][793]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:495][794]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:511][795]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:528][796]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:544][797]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:562][798]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:578][799]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:595][800]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:611][801]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:628][802]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:644][803]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:661][804]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:679][805]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:695][806]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:711][807]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:728][808]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:745][809]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:761][810]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:779][811]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:795][812]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:812][813]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:828][814]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:845][815]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:862][816]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:878][817]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:895][818]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:911][819]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:928][820]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:944][821]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:962][822]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:979][823]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.23:995][824]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:011][825]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:029][826]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:045][827]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:061][828]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:078][829]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:095][830]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:112][831]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:128][832]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:145][833]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:162][834]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:178][835]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:195][836]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:212][837]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:229][838]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:245][839]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:262][840]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:278][841]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:295][842]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:311][843]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:328][844]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:345][845]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:362][846]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:378][847]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:395][848]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:411][849]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:428][850]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:445][851]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:461][852]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:478][853]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:495][854]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:512][855]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:528][856]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:545][857]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:562][858]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:578][859]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:595][860]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:612][861]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:628][862]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:645][863]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:661][864]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:678][865]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:695][866]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:711][867]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:728][868]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:745][869]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:761][870]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:778][871]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:795][872]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:812][873]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:828][874]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:845][875]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:862][876]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:878][877]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:895][878]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:912][879]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:928][880]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:945][881]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:962][882]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:978][883]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.24:994][884]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.25:012][885]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.25:028][886]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.25:045][887]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.25:061][888]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.25:079][889]LogBlueprintUserMessages: [Player_C_0] 0.0
+[2021.09.10-11.15.27:168][ 11]LogSlate: Window 'Test (64-bit Development PCD3D_SM5) ' being destroyed
+[2021.09.10-11.15.27:174][ 11]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2021.09.10-11.15.27:175][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.10-11.15.27:175][ 11]LogEngine: All Windows Closed
+[2021.09.10-11.15.27:175][ 11]LogWindows: FPlatformMisc::RequestExit(0)
+[2021.09.10-11.15.27:175][ 11]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.09.10-11.15.27:175][ 12]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.09.10-11.15.27:176][ 12]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2021.09.10-11.15.27:183][ 12]LogInit: Display: PreExit Game.
+[2021.09.10-11.15.27:183][ 12]LogWorld: BeginTearingDown for /Game/TestGame/Maps/NewWorld
+[2021.09.10-11.15.27:184][ 12]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2021.09.10-11.15.27:185][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.10-11.15.27:414][ 12]LogExit: Preparing to exit.
+[2021.09.10-11.15.28:214][ 12]LogMoviePlayer: Shutting down movie player
+[2021.09.10-11.15.28:412][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.10-11.15.28:421][ 12]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.09.10-11.15.28:422][ 12]LogExit: Game engine shut down
+[2021.09.10-11.15.28:431][ 12]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (00000255593A4580), frame # 1012
+[2021.09.10-11.15.28:431][ 12]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255592ED6C0), frame # 1012
+[2021.09.10-11.15.28:431][ 12]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002555931EE00), frame # 1012
+[2021.09.10-11.15.28:436][ 12]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025554B1CC00), frame # 1012
+[2021.09.10-11.15.28:436][ 12]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002554E4902C0), frame # 1012
+[2021.09.10-11.15.28:454][ 12]LogExit: Object subsystem successfully closed.
+[2021.09.10-11.15.28:468][ 12]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (504)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module SequenceRecorder (502)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module AutomationController (500)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module AutomationWorker (498)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module Voice (496)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module AIModule (494)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module GameplayDebugger (493)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module AITestSuite (491)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module NavigationSystem (489)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module OculusMR (486)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (482)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module WebMMedia (480)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (478)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (476)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (474)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (472)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (470)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module PlanarCut (468)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (462)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module LiveCoding (460)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module LevelSequence (458)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (456)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module MovieScene (454)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (452)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module PortalServices (450)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module PortalRpc (448)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module MessagingRpc (446)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (444)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module AudioMixerCore (443)
+[2021.09.10-11.15.28:480][ 12]LogModuleManager: Shutting down and abandoning module ProfilerService (440)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module TaskGraph (438)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module Synthesis (436)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (434)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module OculusInput (432)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (430)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module GooglePAD (428)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module EditableMesh (426)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (424)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module CableComponent (422)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module AudioCapture (420)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (419)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module AssetTags (416)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (414)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (412)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module AppleImageUtils (410)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module AndroidPermission (408)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (406)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (404)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module TemplateSequence (402)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (400)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (398)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (396)
+[2021.09.10-11.15.28:665][ 12]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (395)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module ImgMedia (390)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (388)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (386)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (378)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module MeshConversion (376)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module DynamicMesh (374)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (372)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module GeometricObjects (370)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (368)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (367)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (363)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module GeometryCache (360)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (359)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module ChaosNiagara (356)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module ChaosCloth (354)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module BackChannel (352)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module AutomationUtils (350)
+[2021.09.10-11.15.28:667][ 12]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (348)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module HotReload (347)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (344)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module UObjectPlugin (342)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (340)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (338)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (336)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module SourceControl (335)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (332)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (330)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module Test (328)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module SoundFields (326)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module SignificanceManager (324)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (322)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (320)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (316)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module ActorSequence (314)
+[2021.09.10-11.15.28:668][ 12]LogModuleManager: Shutting down and abandoning module UdpMessaging (312)
+[2021.09.10-11.15.28:769][ 12]LogModuleManager: Shutting down and abandoning module TcpMessaging (310)
+[2021.09.10-11.15.29:209][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (308)
+[2021.09.10-11.15.29:209][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (306)
+[2021.09.10-11.15.29:209][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (304)
+[2021.09.10-11.15.29:209][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (302)
+[2021.09.10-11.15.29:209][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (300)
+[2021.09.10-11.15.29:209][ 12]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (298)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (296)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (294)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (292)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapController (290)
+[2021.09.10-11.15.29:210][ 12]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (288)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapAR (286)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module AugmentedReality (285)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (282)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module Niagara (280)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module SignalProcessing (279)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module NiagaraEditor (277)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module NiagaraCore (274)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (272)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module FacialAnimation (270)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module TreeMap (267)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module AnimationSharing (264)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (262)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module Paper2D (260)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (258)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (256)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (254)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module PacketHandler (252)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (250)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (248)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module MediaAssets (246)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module Overlay (244)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module OverlayEditor (243)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module VREditor (240)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module StringTableEditor (238)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (236)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (234)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module FunctionalTesting (232)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (230)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module UMG (228)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module UMGEditor (227)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module Sequencer (226)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module MessageLog (223)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module MaterialEditor (221)
+[2021.09.10-11.15.29:210][ 12]LogModuleManager: Shutting down and abandoning module ContentBrowser (220)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module CollectionManager (217)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (216)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module SlateReflector (208)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module Slate (206)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module SlateCore (204)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module Messaging (194)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (192)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (190)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module XAudio2 (188)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module Networking (186)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module Core (184)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module MovieSceneTools (182)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module KismetCompiler (180)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module MeshBuilder (178)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module MeshUtilities (176)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (175)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (174)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (173)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (171)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (169)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (158)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (156)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2021.09.10-11.15.29:211][ 12]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (119)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (117)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (115)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (113)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module InputCore (110)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module Settings (108)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.09.10-11.15.29:212][ 12]LogHMD: Freeing OpenVRDLLHandle.
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.09.10-11.15.29:212][ 12]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.09.10-11.15.29:233][ 12]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.09.10-11.15.29:257][ 12]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.09.10-11.15.29:258][ 12]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.09.10-11.15.29:259][ 12]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.09.10-11.15.29:260][ 12]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.09.10-11.15.29:736][ 12]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.09.10-11.15.29:737][ 12]LogD3D11RHI: Shutdown
+[2021.09.10-11.15.29:737][ 12]LogD3D11RHI: CleanupD3DDevice
+[2021.09.10-11.15.29:743][ 12]LogExit: Exiting.
+[2021.09.10-11.15.29:755][ 12]Log file closed, 09/10/21 20:15:29
